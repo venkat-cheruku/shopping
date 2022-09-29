@@ -1,0 +1,92 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.category-list{
+  display: flex;
+  list-style-type: none;
+  margin: 50px 20px;
+  flex-wrap: wrap;
+}
+.category-list li {
+ margin: 10px;
+ background-color: darkmagenta;
+ color: white;
+ padding: 10px;
+ cursor: pointer;
+ height: 30px;
+ line-height: 31px;
+}
+.brand{
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+}
+.title{
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+}
+.price{
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+}
+.rating{
+  text-align: center;
+}
+.btn{
+  margin-top: 15px !important;
+}
+.cart{
+  margin: 100px;
+}
+.profile{
+  margin:  50px 20px;
+}
+.profile label{
+  font-weight: 600;
+  color: dimgray;
+  margin-right:20px ;
+  width: 130px;
+  text-align: center;
+  display: inline-block;
+
+}
+.heading{
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 24px;
+}
