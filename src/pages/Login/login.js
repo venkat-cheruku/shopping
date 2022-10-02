@@ -79,8 +79,8 @@ const Login = () => {
                         label="Email"
                         variant="outlined"
                         onChange={e => dispatch(updateEmail(e.target.value))}
-                        error={Boolean(validations.userNameErrorMsgs)}
-                        helperText={validations.userNameErrorMsgs}
+                        error={Boolean(validations.userNameErrorMsg)}
+                        helperText={validations.userNameErrorMsg}
                     />
                 </Grid>
                 <Grid item xs="12">
@@ -91,8 +91,8 @@ const Login = () => {
                         label="Password"
                         variant="outlined"
                         onChange={e => dispatch(updatePassword(e.target.value))}
-                        error={Boolean(validations.passwordErrorMsgs)}
-                        helperText={validations.passwordErrorMsgs}
+                        error={Boolean(validations.passwordErrorMsg)}
+                        helperText={validations.passwordErrorMsg}
                     />
                 </Grid>
 

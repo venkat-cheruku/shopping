@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
           <RootRouter/>
-          <div>This is my first change</div>
     </div>
   );
 }
