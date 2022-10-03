@@ -7,7 +7,7 @@ import Header from '../components/Header';
 import Profile from "../pages/Profile/profile";
 const rootRouter = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="shopping">
               <Header/>
             <Routes>
                 <Route path="/" element={<Login />} />
